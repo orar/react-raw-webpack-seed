@@ -1,6 +1,6 @@
 {
   "name": "react-raw-webpack-seed",
-  "description": "custom service worker implementation without workbox",
+  "description": "Minimal React setup with raw Webpack bundler",
   "license": "MIT",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --hot --mode=development",
