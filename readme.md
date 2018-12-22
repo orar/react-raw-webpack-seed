@@ -2,7 +2,7 @@
 
 A minimal React application starter seed bundled with Webpack. Webpack is configured with raw configuration (plain old webpack.config.js)
 
-- *Not Production Ready*
+- **Not Production Ready**
 
 Composed of
 
