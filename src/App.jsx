@@ -16,7 +16,7 @@ class App extends Component<Props> {
 
   render() {
     return (
-      <div className="AppContainer">
+      <div className="appContainer">
         <h1 className="futureText">Hello Future, Im coming for you!</h1>
       </div>
     );

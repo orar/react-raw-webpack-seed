@@ -5,10 +5,10 @@ const htmlWebpackPlugin = require('./htmlWebpack');
 
 
 const config = {
-  mode:  "production",
+  mode:  'production',
   output: {
     path: path.resolve(__dirname, 'public'),
-    publicPath: "/"
+    publicPath: '/'
   },
   plugins: [
     htmlWebpackPlugin({
@@ -21,7 +21,7 @@ const config = {
       }
     }),
   ],
-  devtool: "source-map",
+  devtool: 'source-map',
 };
 
 module.exports = merge(webpackCommonConfig, config);
