@@ -7,9 +7,9 @@ const config = {
   mode:  process.env.NODE_ENV,
   output: {
     path: path.resolve(__dirname, '../public'),
-    publicPath: "/"
+    publicPath: '/'
   },
-  devtool: "eval",
+  devtool:'eval',
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
   ],

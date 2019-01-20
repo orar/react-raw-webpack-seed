@@ -2,6 +2,8 @@ const merge = require('webpack-merge');
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+const noScript = '<noscript>You need to enable JavaScript to run this app.</noscript>';
+
 /* eslint-disable global-require */
 const htmlConfig = {
   title: 'React with Raw Webpack',
