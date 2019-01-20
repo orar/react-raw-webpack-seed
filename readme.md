@@ -2,10 +2,16 @@
 
 A minimal React application starter seed bundled with Webpack. Webpack is configured with raw configuration (plain old webpack.config.js)
 
-- **Not Production Ready**
+Made with ES6+ and Flow
 
-Composed of
 
 - React 
-- Webpack bundler
-- Sass/SCSS/CSS
+- Babel
+- Webpack
+- SCSS/CSS
+
+Linted with Eslint
+
+#### Testing
+- Jest
+- Enzyme

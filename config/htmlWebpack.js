@@ -22,6 +22,10 @@ const htmlConfig = {
     {
       name: 'keywords',
       content: 'webpack,webpack-4,webpack.config.js,html5,ES7-+,react,sass'
+    },
+    {
+      name: 'viewport',
+      content: 'width=device-width, maximum-scale=1, user-scalable=no'
     }
   ],
   inject: false,
